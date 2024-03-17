@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="36px" android:textColor="#eae9e9" android:ellipsize="end" android:gravity="center" android:id="@+id/tvNaviNoData" android:background="@drawable/normal_1920x720_youdaohangdi" android:layout_width="match_parent" android:layout_height="match_parent" android:text="无导航数据..." android:singleLine="true"/>
+    <RelativeLayout android:id="@+id/rlNaviView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="36px" android:textColor="#eae9e9" android:gravity="center_horizontal" android:id="@+id/TvSegRemainDisInfor" android:padding="15px" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="345米后"/>
+        <ImageView android:background="@drawable/normal_1920x720_daohangxian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="0px"/>
+        <ImageView android:background="@drawable/normal_1920x720_daohangfanxiang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="131px" android:layout_marginTop="75px"/>
+        <ImageView android:id="@+id/Amapauto_Icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="131px" android:layout_marginTop="75px"/>
+        <TextView android:textSize="36px" android:textColor="#eae9e9" android:gravity="center_horizontal" android:id="@+id/TvNextRouadName" android:padding="15px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="342px" android:text="进入新湖路"/>
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="445px">
+            <ImageView android:id="@+id/ivCameraType" android:layout_width="90px" android:layout_height="90px" android:layout_marginRight="15px"/>
+            <TextView android:textSize="40px" android:textStyle="bold" android:textColor="#000" android:gravity="center" android:id="@+id/tvCameraSpeed" android:layout_width="90px" android:layout_height="90px" android:layout_marginLeft="15px" android:layout_toRightOf="@+id/ivCameraType"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="595px">
+            <TextView android:textSize="28px" android:textColor="#eae9e9" android:id="@+id/TvRouteRemainDis" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="36px" android:textStyle="bold" android:textColor="#eae9e9" android:id="@+id/tvDian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-15px" android:text=" . " android:layout_toRightOf="@+id/TvRouteRemainDis"/>
+            <TextView android:textSize="28px" android:textColor="#eae9e9" android:id="@+id/TvRouteRemainTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/tvDian"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

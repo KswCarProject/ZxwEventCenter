@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#000" android:layout_width="567dp" android:layout_height="200dp">
+    <View android:background="@drawable/border_rectangle" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="93dp" android:text="@string/lb_touch_tip" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="21sp" android:textColor="#fff" android:id="@+id/restoreTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:layout_centerInParent="true"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="100dp" android:layout_alignParentBottom="true">
+        <Button android:textColor="#fff" android:id="@+id/btnRestoreNo" android:background="@drawable/button_id7_rectangle" android:layout_width="133dp" android:layout_height="40dp" android:text="@string/lb_restore_no" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        <Button android:id="@+id/btnRestoreYes" android:background="@drawable/button_id7_rectangle" android:layout_width="133dp" android:layout_height="40dp" android:text="@string/lb_restore_yes" android:layout_centerVertical="true" android:layout_marginEnd="107dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</RelativeLayout>

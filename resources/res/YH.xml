@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#000" android:layout_width="374px" android:layout_height="400px" android:layout_marginTop="0px">
+    <com.szchoiceway.eventcenter.View.VerticalViewPager android:id="@+id/mVerticalViewPager" android:layout_width="374px" android:layout_height="400px" android:layout_marginTop="0px"/>
+</RelativeLayout>

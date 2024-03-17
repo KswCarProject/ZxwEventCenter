@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/kesaiwei_1280x480_bk1" android:visibility="visible" android:layout_width="1280px" android:layout_height="480px" android:layout_marginLeft="0px" android:layout_marginTop="0px"/>
+    <ImageView android:background="@drawable/camd1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnTouch_Cheku" android:background="@null" android:layout_width="480px" android:layout_height="480px" android:layout_marginLeft="800px" android:layout_marginTop="0px"/>
+</RelativeLayout>

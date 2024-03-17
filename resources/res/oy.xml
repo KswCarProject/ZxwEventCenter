@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/menu" android:background="@drawable/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_background_assistivetouch" android:layout_width="@dimen/size_dialog" android:layout_height="@dimen/size_dialog" android:layout_centerInParent="true">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/lay_main" android:padding="4px" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@+id/btn_apps" android:text="@string/apps" android:drawableTop="@drawable/selector_ic_apps" android:layout_centerInParent="true" style="@style/Icon"/>
+            <TextView android:id="@+id/btn_home_screen" android:text="@string/home_screen" android:drawableTop="@drawable/selector_ic_home" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Icon"/>
+            <TextView android:id="@+id/btn_setting" android:text="@string/setting" android:drawableTop="@drawable/selector_ic_phone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Icon"/>
+            <TextView android:id="@+id/btn_lock_screen" android:text="@string/lock_screen" android:drawableTop="@drawable/selector_ic_power_down" android:layout_centerHorizontal="true" style="@style/Icon"/>
+            <TextView android:id="@+id/btn_favor" android:text="@string/favor" android:drawableTop="@drawable/selector_ic_star" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Icon"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/normal_1920x720_tianqibeijing" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="36px" android:textColor="#eae9e9" android:gravity="center_horizontal" android:id="@+id/TvWeatherTitle" android:padding="15px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="140px" android:text="多云"/>
+    <ImageView android:id="@+id/IvWeatherIcon" android:background="@drawable/normal_1920x720_d01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="188px" android:layout_marginTop="248px"/>
+    <TextView android:textSize="36px" android:textColor="#eae9e9" android:gravity="center_horizontal" android:id="@+id/TvWeatherCurTemp" android:padding="15px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="495px" android:text="27"/>
+    <TextView android:textSize="36px" android:textColor="#eae9e9" android:gravity="center_horizontal" android:id="@+id/TvCityName" android:padding="15px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="560px" android:text="深圳"/>
+    <ImageButton android:id="@+id/BtnSetCityCode" android:background="@null" android:visibility="visible" android:layout_width="200px" android:layout_height="197px" android:layout_marginLeft="188px" android:layout_marginTop="248px"/>
+</RelativeLayout>

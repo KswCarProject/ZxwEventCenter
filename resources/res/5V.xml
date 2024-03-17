@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#ff060606" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/changtong_1920x720_power_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:background="@drawable/changtong_1920x720_power_daoying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="382dp" android:layout_marginStart="480dp"/>
+    <com.szchoiceway.eventcenter.View.MyClockView android:id="@+id/mClockView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:clockDrawable="@drawable/changtong_1920x720_power_zhong" app:hourDrawable="@drawable/changtong_1920x720_power_shizhen" app:minuteDrawable="@drawable/changtong_1920x720_power_fenzhen" app:secondDrawable="@drawable/changtong_1920x720_power_miaozhen"/>
+    <ImageView android:background="@drawable/changtong_1920x720_power_yuandian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31dp" android:layout_marginStart="465dp"/>
+    <TextView android:textSize="28sp" android:textStyle="bold" android:textColor="#bfbfbf" android:id="@+id/TwCurDataTimeYMD" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="33dp" android:layout_marginTop="412dp" android:text="2018-06-06" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_16_l" android:maxLevel="1"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_16_5_l" android:maxLevel="2"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_17_l" android:maxLevel="3"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_17_5_l" android:maxLevel="4"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_18_l" android:maxLevel="5"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_18_5_l" android:maxLevel="6"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_19_l" android:maxLevel="7"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_19_5_l" android:maxLevel="8"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_20_l" android:maxLevel="9"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_20_5_l" android:maxLevel="10"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_21_l" android:maxLevel="11"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_21_5_l" android:maxLevel="12"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_22_l" android:maxLevel="13"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_22_5_l" android:maxLevel="14"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_23_l" android:maxLevel="15"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_23_5_l" android:maxLevel="16"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_24_l" android:maxLevel="17"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_24_5_l" android:maxLevel="18"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_25_l" android:maxLevel="19"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_25_5_l" android:maxLevel="20"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_26_l" android:maxLevel="21"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_26_5_l" android:maxLevel="22"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_27_l" android:maxLevel="23"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_27_5_l" android:maxLevel="24"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_temperature_28_l" android:maxLevel="25"/>
+</level-list>

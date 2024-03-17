@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/kesaiwei_1280x480_jlr_tianqidi" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/kesaiwei_1280x480_jlr_tianqikuang" android:layout_width="170px" android:layout_height="170px" android:layout_marginLeft="103px" android:layout_marginTop="69px"/>
+    <TextView android:textSize="28px" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/TvWeatherTitle" android:layout_width="374px" android:layout_height="40px" android:layout_marginLeft="0px" android:layout_marginTop="20px"/>
+    <ImageView android:id="@+id/IvWeatherIcon" android:layout_width="140px" android:layout_height="140px" android:layout_marginLeft="118px" android:layout_marginTop="84px"/>
+    <TextView android:textSize="28px" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/TvWeatherCurTemp" android:layout_width="374px" android:layout_height="40px" android:layout_marginLeft="0px" android:layout_marginTop="250px"/>
+    <TextView android:textSize="28px" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/TvCityName" android:layout_width="374px" android:layout_height="40px" android:layout_marginLeft="0px" android:layout_marginTop="290px"/>
+    <ImageButton android:id="@+id/BtnSetCityCode" android:background="@null" android:visibility="visible" android:layout_width="140px" android:layout_height="140px" android:layout_marginLeft="118px" android:layout_marginTop="84px"/>
+</RelativeLayout>

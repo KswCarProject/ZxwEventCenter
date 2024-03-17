@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="1280px" android:layout_height="80px">
+    <ImageView android:background="@drawable/kesaiwei_1280x480_jlr_xiadi" android:layout_width="1280px" android:layout_height="80px"/>
+    <ImageButton android:id="@+id/btnBottomReturn" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15px"/>
+    <ImageButton android:id="@+id/btnBottomHome" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="125px"/>
+    <ImageButton android:id="@+id/btnBottomSetting" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="237px"/>
+    <ImageButton android:id="@+id/btnBottomDvr" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_dvr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="384px"/>
+    <ImageButton android:id="@+id/btnBottomNavi" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_navi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="495px"/>
+    <ImageButton android:id="@+id/btnBottomBluetooth" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="605px"/>
+    <ImageButton android:id="@+id/btnBottomMedia" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_media" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="711px"/>
+    <ImageButton android:id="@+id/btnBottomAir" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_air" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="821px"/>
+    <ImageButton android:id="@+id/btnBottomPKey" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_p_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="962px"/>
+    <ImageView android:id="@+id/imgBottomPKey" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_status_d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="962px"/>
+    <ImageButton android:id="@+id/btnBottomAutoPark" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_auto_park" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1073px"/>
+    <ImageView android:id="@+id/imgBottomAutoPark" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_status_d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1074px"/>
+    <ImageButton android:id="@+id/btnBottomPower" android:background="@drawable/kesaiwei_1280x480_jlr_btn_bottom_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1184px"/>
+</RelativeLayout>

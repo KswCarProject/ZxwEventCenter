@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="google_packages_name">
+        <item>com.android.vending</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.gm</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.gsf</item>
+        <item>com.google.android.tts</item>
+        <item>com.google.android.partnersetup</item>
+    </array>
+    <array name="lr_hide_bottom_view_class_name">
+        <item>com.szchoiceway.settings.CareSetActivity</item>
+        <item>com.szchoiceway.settings.FeedbackActivity</item>
+        <item>com.szchoiceway.settings.GPSActivity</item>
+        <item>com.szchoiceway.settings.ManualActivity</item>
+    </array>
+    <array name="lr_hide_bottom_view_packages_name">
+        <item>com.szchoiceway.settings</item>
+        <item>com.szchoiceway.btsuite</item>
+        <item>com.szchoiceway.musicplayer</item>
+        <item>com.szchoiceway.videoplayer</item>
+        <item>com.szchoiceway.navigation</item>
+        <item>com.szchoiceway.ksw_dashboard</item>
+    </array>
+</resources>

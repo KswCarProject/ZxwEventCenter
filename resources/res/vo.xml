@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_0_r" android:maxLevel="0"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_1_r" android:maxLevel="1"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_2_r" android:maxLevel="2"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_3_r" android:maxLevel="3"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_4_r" android:maxLevel="4"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_5_r" android:maxLevel="5"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_6_r" android:maxLevel="6"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_7_r" android:maxLevel="7"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_8_r" android:maxLevel="8"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_9_r" android:maxLevel="9"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_10_r" android:maxLevel="10"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_11_r" android:maxLevel="11"/>
+    <item android:drawable="@drawable/audi_mib3_air_fun_windspeed_12_r" android:maxLevel="12"/>
+</level-list>

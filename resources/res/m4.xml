@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#000" android:layout_width="567dp" android:layout_height="200dp">
+    <View android:background="@drawable/border_rectangle" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="123dp" android:text="@string/lb_reboot_without_time" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="100dp" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/btnRebootNo" android:background="@drawable/button_id7_rectangle" android:layout_width="133dp" android:layout_height="40dp" android:text="@string/lb_restore_no" android:layout_centerVertical="true" android:layout_marginStart="107dp"/>
+        <Button android:id="@+id/btnRebootYes" android:background="@drawable/button_id7_rectangle" android:layout_width="133dp" android:layout_height="40dp" android:text="@string/lb_restore_yes" android:layout_centerVertical="true" android:layout_marginEnd="107dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/CanRadarBK" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/ivRadarBg" android:background="@drawable/normal_1920x720_leidadi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1344px" android:layout_marginTop="0px"/>
+        <ImageView android:background="@drawable/normal_1920x720_leida_xian_qian" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1419px" android:layout_marginTop="28px"/>
+        <ImageView android:background="@drawable/normal_1920x720_leida_xian_hou" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1419px" android:layout_marginTop="518px"/>
+        <ImageView android:id="@+id/CarF1_1" android:background="@drawable/f1_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1419px" android:layout_marginTop="28px"/>
+        <ImageView android:id="@+id/CarF2_1" android:background="@drawable/f2_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1522px" android:layout_marginTop="28px"/>
+        <ImageView android:id="@+id/CarF3_1" android:background="@drawable/f3_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1632px" android:layout_marginTop="28px"/>
+        <ImageView android:id="@+id/CarF4_1" android:background="@drawable/f4_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1664px" android:layout_marginTop="28px"/>
+        <ImageView android:id="@+id/CarR1_1" android:background="@drawable/r1_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1419px" android:layout_marginTop="518px"/>
+        <ImageView android:id="@+id/CarR2_1" android:background="@drawable/r2_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1520px" android:layout_marginTop="518px"/>
+        <ImageView android:id="@+id/CarR3_1" android:background="@drawable/r3_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1632px" android:layout_marginTop="518px"/>
+        <ImageView android:id="@+id/CarR4_1" android:background="@drawable/r4_1_bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1664px" android:layout_marginTop="518px"/>
+        <ImageView android:background="@drawable/che" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1547px" android:layout_marginTop="185px"/>
+    </RelativeLayout>
+</RelativeLayout>

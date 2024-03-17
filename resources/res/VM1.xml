@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rlCarDoor" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="1299px">
+        <ImageView android:background="@drawable/normal_1920x720_show2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39px">
+            <ImageView android:background="@drawable/normal_1920x720_youdi" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/ImgCarIcon" android:background="@drawable/carpic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="0px"/>
+            <ImageView android:id="@+id/ImgFrontCovereOnIcon" android:background="@drawable/qiangai" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="197px" android:layout_marginTop="115px"/>
+            <ImageView android:id="@+id/ImgBCMCovereOnIcon" android:background="@drawable/hougai" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="193px" android:layout_marginTop="549px"/>
+            <ImageView android:id="@+id/ImgDoorFLeftIcon" android:background="@drawable/zuoshang" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="91px" android:layout_marginTop="278px"/>
+            <ImageView android:id="@+id/ImgDoorRLeftIcon" android:background="@drawable/zuoxia" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="91px" android:layout_marginTop="405px"/>
+            <ImageView android:id="@+id/ImgDoorFRightIcon" android:background="@drawable/youshang" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="372px" android:layout_marginTop="278px"/>
+            <ImageView android:id="@+id/ImgDoorRRightIcon" android:background="@drawable/youxia" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="372px" android:layout_marginTop="405px"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rlCarDoor1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0px">
+        <ImageView android:background="@drawable/normal_1920x720_che_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgCarIcon1" android:background="@drawable/carpic1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgFrontCovereOnIcon1" android:background="@drawable/qiangai1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgBCMCovereOnIcon1" android:background="@drawable/hougai1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgDoorFLeftIcon1" android:background="@drawable/zuoshang1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgDoorRLeftIcon1" android:background="@drawable/zuoxia1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgDoorFRightIcon1" android:background="@drawable/youshang1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+        <ImageView android:id="@+id/ImgDoorRRightIcon1" android:background="@drawable/youxia1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="86px"/>
+    </RelativeLayout>
+</RelativeLayout>

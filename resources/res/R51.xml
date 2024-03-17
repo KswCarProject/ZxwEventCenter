@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_air_windspeed_flash1_l"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_air_windspeed_flash2_l"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_air_windspeed_flash3_l"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_air_windspeed_flash4_l"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_air_windspeed_flash5_l"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_air_windspeed_flash6_l"/>
+</animation-list>

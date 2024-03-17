@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/kesaiwei_1280x480_jlr_daohangdi" android:layout_width="374px" android:layout_height="400px" android:layout_marginLeft="0px" android:layout_marginTop="0px"/>
+    <TextView android:textSize="28px" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/tvNaviNoData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="108px" android:layout_marginTop="201px" android:text="无导航数据..." android:singleLine="true"/>
+    <RelativeLayout android:id="@+id/rlNaviView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="28px" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/TvSegRemainDisInfor" android:layout_width="374px" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="62px" android:text="" android:singleLine="true"/>
+        <ImageView android:id="@+id/Amapauto_Icon" android:layout_width="150px" android:layout_height="172px" android:layout_marginLeft="108px" android:layout_marginTop="106px"/>
+        <TextView android:textSize="28px" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/TvNextRouadName" android:layout_width="374px" android:layout_height="wrap_content" android:layout_marginLeft="0px" android:layout_marginTop="22px" android:text="" android:singleLine="true"/>
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="295px">
+            <TextView android:textSize="28px" android:textColor="#eae9e9" android:id="@+id/TvRouteRemainDis" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="28px" android:textStyle="bold" android:textColor="#eae9e9" android:id="@+id/tvDian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8px" android:text=" . " android:layout_toRightOf="@+id/TvRouteRemainDis"/>
+            <TextView android:textSize="28px" android:textColor="#eae9e9" android:id="@+id/TvRouteRemainTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/tvDian"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
